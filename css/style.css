@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	background: #444;
+}
+.container{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+h3{
+	font-size: 2em;
+	padding: 1em;
+	color: #fafafa;
+}
+.scoreboard > div{
+	display: inline-block;
+	padding: 0 5em;
+	font-size: 1.5em;
+	color: tomato;
+}
+.status{
+	margin: 2em 0;
+}
+.status > span{ 
+	padding: 5em;
+	font-size: 1.5em;
+	color: yellow;	
+}
+.rpsimg{
+	width: 100%;
+	float: left;
+}
+.rpsimg > div{
+	width: 30%;
+	margin: 0 auto;
+	display: inline-block;
+}
+.rpsimg img{
+	cursor: pointer;
+	width: 60%;
+}
